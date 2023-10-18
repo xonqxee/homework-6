@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container py-4">
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <div class="d-flex align-items-center text-dark text-decoration-none">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="Dark" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                            <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+                            <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+                        </svg>
+                    </a>
+                    <span class="fs-4">Pricing Simple</span>
+                </div> 
+                <nav class="d--flex mt-2 mt-md-0 ms-md-auto ">
+                    <a href="#" class="text-dark text-decoration-none">Features</a>
+                    <a href="#" class="text-dark text-decoration-none">Enterprise</a>
+                    <a href="#" class="text-dark text-decoration-none">Support</a>
+                    <a href="#" class="text-dark text-decoration-none">Pricing</a>
+                </nav>
+               
+            </div>
+            <div class="pricing-header text-center text-dark p-2 px-3 mx-auto col-10">
+                    <h1 class="fs-1 mt-5 fw-normal">Pricing</h1>
+                    <p class="text-muted fs-3">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+                    </p>
+            </div>
+        </header>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header">Free</div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title d-flex justify-content-center">
+                                    <p>$
+                                        0
+                                    </p>
+                                    <p class="text-secondary fw-lighter">
+                                        /mo
+                                    </p>
+                                </h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header">Pro</div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title d-flex justify-content-center">
+                                    <p>
+                                        $15
+                                    </p>
+                                    <p class="text-secondary fw-lighter">
+                                        /mo
+                                    </p>
+                                </h1>
+                                <ul class="list-unstyled">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button class="w-100 btn btn-lg btn-primary">Get started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header bg-primary text-light">Enterprise</div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title d-flex justify-content-center">
+                                    <p class=>$
+                                        29
+                                    </p>
+                                    <p class="text-secondary fw-lighter">
+                                        /mo
+                                    </p>
+                                </h1>
+                                <ul class="list-unstyled">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button class="w-100 btn btn-lg btn-primary">Contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center display-6">Compare plans</h2>
+                <div class="table-responsive">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th class="width 34%"></th>
+                                <th class="width 22%">Free</th>
+                                <th class="width 22%">Pro</th>
+                                <th class="width 22%">Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Public</th>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Private</th>
+                                <td>
+                                </td>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Permissions</th>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Sharing</th>
+                                <td>
+                                </td>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Unlimited members</th>
+                                <td>
+                                </td>
+                                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                </svg>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Extra security</th>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </main>
+        <footer class="my-5 pt-5 border-top">
+            <div class="row">
+                <div class="col-3">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Dark" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                            <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+                            <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+                        </svg>
+                    </p>
+                    <p class="text-muted d-block">
+                        © 2017–2023
+                    </p>
+                </div>
+                <div class="col-3">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Cool Stuff</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Random feature</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Team feature</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Stuff for developers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Another one</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Last time</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Resource</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Resource name</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Another resource</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Final resource</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Locations</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-secondary text-decoration-none">Terms</a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
